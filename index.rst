@@ -9,7 +9,17 @@
   what_is_prism_central/what_is_prism_central
   prism_central_overview/prism_central_overview
   prism_central_dashboards_reports/prism_central_dashboards_reports
-  prism_central_resource_planning/prism_central_resource_planning
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Prism Pro
+  :name: _prism_pro
+  :hidden:
+
+  what_is_prism_pro/what_is_prism_pro
+  prism_pro_efficiency_anomaly/prism_pro_efficiency_anomaly
+  prism_pro_resource_planning/prism_pro_resource_planning
+  prism_pro_xplay/prism_pro_xplay
 
 .. toctree::
   :maxdepth: 2
@@ -20,6 +30,8 @@
   files_deploy/files_deploy
   files_smb_share/files_smb_share
   files_nfs_export/files_nfs_export
+  file_analytics_deploy/file_analytics_deploy
+  file_analytics_scan/file_analytics_scan
 
 .. toctree::
   :maxdepth: 2
@@ -32,9 +44,6 @@
   calm_projects/calm_projects
   calm_linux/calm_linux
   calm_win/calm_win
-  calm_day2/calm_day2
-  calm_escript/calm_escript
-  calm_marketplace/calm_marketplace
 
 .. toctree::
   :maxdepth: 2
@@ -47,7 +56,6 @@
   flow_secure_app/flow_secure_app
   flow_isolate_environments/flow_isolate_environments
   flow_quarantine_vm/flow_quarantine_vm
-  flow_assign_categories_in_calm/flow_assign_categories_in_calm
 
 .. toctree::
   :maxdepth: 2
@@ -83,7 +91,7 @@ What's New
 ++++++++++
 
 - Workshop updated for the following software versions:
-    - AOS & PC 5.10.x
+    - AOS & PC 5.11
 
 - Optional Lab Updates:
 
@@ -258,6 +266,6 @@ For RTP:
 Nutanix Version Info
 ++++++++++++++++++++
 
-- **AHV Version** - AHV 20170830.185 (5.9+/5.10+)
-- **AOS Version** - 5.10.2
-- **PC Version** - 5.10.2
+- **AHV Version** - AHV 20170830.279 (5.10+)
+- **AOS Version** - 5.11
+- **PC Version** - 5.11
