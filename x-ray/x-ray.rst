@@ -20,11 +20,11 @@ For environments where DHCP is unavailable (or there isn't a sufficiently large 
 Cluster Details
 ...............
 
-Using the spreadsheet below, locate your **Group Number** and corresponding details for your group's assigned cluster.
+Using the spreadsheet below, locate your corresponding details for your assigned cluster.
 
 .. raw:: html
 
-  <iframe src=https://docs.google.com/spreadsheets/d/e/2PACX-1vQyI5rZlI4OQ5KbbUmEYXYRKb7zHvmFGQlqBmFqynNc4BNNlzBvgUamtfIdy2AlGLZYektSupV1_72a/pubhtml?gid=0&amp;single=false&amp;widget=false&amp;chrome=false&amp;headers=false&amp;range=a1:m41 style="position: relative; height: 500px; width: 100%; border: none"></iframe>
+  <iframe width="98%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTQFMIaGijAPM6oYBVxksReNarjBUif-U2xpIzXSQAh_Sy5LMZS7BbHzXaIhQkyVOdR6AOuZoqYtQoL/pubhtml?widget=true&amp;headers=false"></iframe>
 
 References and Downloads
 ........................
@@ -37,30 +37,6 @@ References and Downloads
 - `HCI Performance Testing Made Easy (Part 2) <https://www.n0derunner.com/2018/09/hci-performance-testing-made-easy-part-2/>`_ - *Gary Little blog/video series on using X-Ray.*
 - `HCI Performance Testing Made Easy (Part 3) <https://www.n0derunner.com/2018/09/hci-performance-testing-made-easy-part-3/>`_ - *Gary Little blog/video series on using X-Ray.*
 
-Configuring Target Cluster Networks
-+++++++++++++++++++++++++++++++++++
-
-Log into **Prism** on your 3-node **POC** cluster (10.21.\ *XYZ*\ .37).
-
-Open **Prism > VM > Table** and click **Network Config**.
-
-.. figure:: images/0.png
-
-Before creating the VM, we must first create a virtual network to assign to the Foundation VM. The network will use the Native VLAN assigned to the physical uplinks for all 4 nodes in the block.
-
-Click **Virtual Networks > Create Network**.
-
-Fill out the following fields and click **Save**:
-
-- **Name** - Primary
-- **VLAD ID** - 0
-
-Click **Create Network**. Using the `Cluster Details`_ spreadsheet, fill out the following fields and click **Save**:
-
-- **Name** - Secondary
-- **VLAD ID** - *<Secondary VLAN ID>*
-
-.. figure:: images/1.png
 
 Creating X-Ray VM
 +++++++++++++++++
@@ -156,6 +132,11 @@ Click **Done**.
 
   If deploying X-Ray in an environment without internet access, tokens can be generated at https://my.nutanix.com/#/page/xray.
 
+  .. raw:: html
+
+    <H1><font color="red">BITTE NUR LESEN!!! NICHT AUSFÜHREN!!!!</font></h1>
+
+
 Select **Targets** from the navigation bar and click **+ New Target**. Fill out the following fields and click **Next**:
 
 - **Name** - POC-Cluster
@@ -163,9 +144,9 @@ Select **Targets** from the navigation bar and click **+ New Target**. Fill out 
 - **Power Management Type** - IPMI
 - **Username** - ADMIN
 - **Password** - ADMIN
-- **Prism Address** - *<3-Node Cluster Virtual IP>*
+- **Prism Address** - *<4-Node Cluster Virtual IP>*
 - **Username** - admin
-- **Password** - techX2018!
+- **Password** - miniGTS19@CE
 
 .. figure:: images/11.png
 
@@ -229,6 +210,11 @@ The graphs are interactive, and you can click and drag to zoom into specific dat
 Each dotted blue line represents an event in the test, such as beginning a workload, powering off a node, etc. Clicking the blue dots will provide information about the event.
 
 Clicking the **Actions** drop down menu provides options to view the detailed log data, export the test results, and generate a PDF report.
+
+.. raw:: html
+
+  <H1><font color="red">JETZT DURFT IHR WIEDER AUSFÜHREN!!!!</font></h1> 
+
 
 Working with X-Ray Results
 ++++++++++++++++++++++++++
