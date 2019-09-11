@@ -46,6 +46,8 @@ Fill out the following fields:
     - **VLAN Name** - Primary
     - Select **Add**
 
+- Repeat the network step and add a NIC in the **Secondary** network
+
 Click **Save** to create the VM.
 
 Power on the VM.
