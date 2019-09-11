@@ -77,7 +77,7 @@ Deploy Files
 
      .. figure:: images/6.png
 
-#. Specify your cluster's **Domain Controller** VM IP (found in :ref:`stagingdetails`) as the **DNS Resolver IP** (e.g. 10.XX.YY.40). Leave the default (cluster) NTP Server.
+#. Specify your cluster's **Domain Controller** VM IP (found in :ref:`stagingdetails`) as the **DNS Resolver IP** (e.g. 10.XX.YY.41). Leave the default (cluster) NTP Server.
 
    .. raw:: html
 
