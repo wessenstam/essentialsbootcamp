@@ -81,6 +81,8 @@
   karbon/karbon
   buckets/buckets
   x-ray/x-ray
+  dr_runbook/dr_runbook
+  frame/frame
 
 .. toctree::
   :maxdepth: 2
