@@ -64,6 +64,11 @@
   :name: _optional_labs
   :hidden:
 
+  move/move
+  karbon/karbon
+  buckets/buckets
+  x-ray/x-ray
+
 .. toctree::
   :maxdepth: 2
   :caption: Appendix
