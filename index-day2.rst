@@ -57,12 +57,30 @@
   flow_isolate_environments/flow_isolate_environments
   flow_quarantine_vm/flow_quarantine_vm
 
+.. toctree::
+  :maxdepth: 2
+  :caption: Era
+  :name: _era
+  :hidden:
+
+  era_deploy_and_register/era_deploy_and_register
+  era_provision_postgresdb/era_provision_postgresdb
+  era_clone_postgresdb/era_clone_postgresdb
+  era_create_mssql_server/era_create_mssql_server
+  era_register_mssql_dbs/era_register_mssql_dbs
+  era_clone_mssqldb/era_clone_mssqldb
+  era_rest_api/era_rest_api
 
 .. toctree::
   :maxdepth: 2
   :caption: Optional Labs
   :name: _optional_labs
   :hidden:
+
+  dr-runbook/dr-runbook
+  frame/frame
+
+
 
 .. toctree::
   :maxdepth: 2
