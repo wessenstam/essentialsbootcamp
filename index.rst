@@ -105,17 +105,21 @@ Agenda
 - Nutanix Calm
 - Nutanix Flow
 
-Introductions
-+++++++++++++
-
-- Name
-- Familiarity with Nutanix
 
 Initial Setup
 +++++++++++++
 
 - Take note of the *Passwords* being used.
 - Log into your virtual desktops (connection info below)
+
+Cluster assignment
+++++++++++++++++++
+
+Please use the below table to find your assigned cluster, passwords and usernames. If you write this information on a piece of paper, it will make your life easier....
+
+.. raw:: html
+
+  <iframe width="98%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS5Jhxo7b1pb1Wp9oKbt4xo3JX6bgYVxNvDYs48UKQ7d5jKdfKX-KXKHiqvySP0djvacIMlcll2272X/pubhtml?widget=true&amp;headers=false"></iframe>
 
 Environment Details
 +++++++++++++++++++
@@ -255,12 +259,6 @@ For PHX:
 - **Type** - Policy Secure (UAC) or Connection Server
 - **Name** - X-Labs - PHX
 - **Server URL** - xlv-uswest1.nutanix.com
-
-For RTP:
-
-- **Type** - Policy Secure (UAC) or Connection Server
-- **Name** - X-Labs - RTP
-- **Server URL** - xlv-useast1.nutanix.com
 
 
 Nutanix Version Info
