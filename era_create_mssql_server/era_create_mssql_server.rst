@@ -33,7 +33,7 @@ Let's use Prism Element to perform the container setup.
    - Select **Advanced Settings**
    - Select **Compression**
    - **Delay (In Minutes)** - 0
-   - Select **Erasure Coding**
+   - Deselect **Erasure Coding**
 
 #. Click **Save**.
 
